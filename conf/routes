@@ -1,0 +1,3 @@
+GET        /                    controllers.Home.index
+GET        /azure               controllers.Home.azure
+GET        /assets/*file        controllers.Assets.at(path = "/public", file)
